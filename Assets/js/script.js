@@ -11,30 +11,22 @@ submitBtn.addEventListener("click", () => {
     firstBox.style.display = "none";
 })
 
-rateAgain.addEventListener("click", () => {
+rateAgain.addEventListener("click", () => {//arrow function same as function(){}
     thankYouBox.style.display = "none";
     firstBox.style.display = "block";
 })//same code as above, just switching the outcome
 
+rates.forEach( function (rate) {
+    rate.addEventListener("click", () => {
+        numRating.innerHTML = rate.innerHTML //rate(rates) when btn is pushed will show btn clicked in the span of thankYou rating
+        //console.log(rate.innerHTML); using innerHTML The text content of the element, including all spacing and inner HTML tags.
+        //without it, it would show just the tag button and their number
+    })
+})
+
 // document.getElementById("submit").addEventListener("click", myFunction);
 
 // function myFunction() {
-
-// document.getElementById("two").style.display = "block";
-// document.getElementById("one").style.display = "none";
-// if (rateAgain){
-//     document.getElementById("two").style.display = "none";
-//     document.getElementById("one").style.display = "block";
-// }
-// }
-
-
-// function rate () {
-    
-// }
-
-// rate();
-
 
 // 28-mini project- function- ability to vote again
 // var playAgain = confirm("Do you want to play again?");

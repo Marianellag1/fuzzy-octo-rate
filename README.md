@@ -57,5 +57,4 @@ Users should be able to:
 
 ## Acknowledgments
 
-A huge thank you to [Sank Thomas](https://github.com/SankThomas) who did an amazing walkthrough of the challenge, and explained it in a way that makes javascript not so
-intimidating.
+credit goes to: [Sank Thomas](https://github.com/SankThomas) for walkthrough of this challenge

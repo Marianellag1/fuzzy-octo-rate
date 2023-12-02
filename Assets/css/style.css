@@ -30,12 +30,8 @@
     --orange: hsl(25, 97%, 53%);
 }
 
-main {
-    font-family: 'Overpass', sans-serif;
-    text-align: center;
-}
-
 body {
+    font-family: 'Overpass', sans-serif;
     font-size: 15px;
     min-height: 100vh;
     display: flex;

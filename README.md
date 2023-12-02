@@ -27,6 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
+![](./images/rate-video.gif)
 ![](./images/rename1.png)
 ![](./images/rename2.png)
 

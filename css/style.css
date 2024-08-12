@@ -93,6 +93,7 @@ h2 {
     width: 50%;
     display: inline-block;
     margin: 1rem;
+    padding: 8px;
 }
 
 #support {
